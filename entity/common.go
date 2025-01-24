@@ -191,7 +191,7 @@ type ProjectVariable struct {
 
 type ProjectUser struct {
 	Id            string `json:"id,omitempty"`
-	Desactivation bool   `json:"-"`
+	Deactivation  bool   `json:"-"`
 	Namespace     string `json:"namespace"`
 	Email         string `json:"email"`
 	//DisplayName    string `json:"-"`
